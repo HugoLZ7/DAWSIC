@@ -1,0 +1,108 @@
+/* Add a black background color to the top navigation */
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.flex_container {
+  display: flex; /* Alinea elementos en una fila horizontal */
+  gap: 80px; /* Espacio entre imágenes */
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.image-item {
+  text-align: center;
+  flex-shrink: 0; /* Evita que los elementos se reduzcan si el espacio es pequeño */
+}
+
+.image-item img {
+  width: 300px; /* Ancho fijo para todas las imágenes */
+  height: 300px; /* Alto fijo para todas las imágenes */
+  object-fit: cover; /* Recorta la imagen para que encaje en el contenedor */
+  border-radius: 8px; /* Bordes redondeados opcionales */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombras para darle estilo */
+}
+
+.image-item p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  background-color: #333; /* Color de fondo */
+  color: white; /* Color del texto */
+  padding: 10px 20px; /* Espaciado */
+  border-radius: 25px; /* Hace el óvalo */
+  margin-top: 10px;
+  font-size: 16px;
+  text-align: center;
+  
+}
+
+.navbar a {
+  font-size: 18px;
+  color: rgb(12, 12, 12);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+}
+a.navbar-brand {
+  color: aliceblue;
+}
+
+.titulo2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+}
+
+body {
+  background-image: url(/img/fondo.jpg);
+  background-size: cover;
+}
+
+.container-info {
+  display: flex;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 20px; /* Bordes redondeados */
+  padding: 20px;
+  text-align: center;
+  color: white;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+.container-info:hover {
+  transform: scale(1.05);
+}
+.image-item:hover{
+  transform: scale(1.05);
+}
+
