@@ -1,0 +1,43 @@
+.navbar-brand {
+  font-family: fantasy;
+}
+.container-sm.title {
+  display: flex;
+  justify-content: center;
+}
+.container-sm.title h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 75px;
+    color: beige;
+}
+body {
+    background-image: url(/img/fondo.jpg);
+    background-size: cover;
+  }
+.nav-link{
+    font-family: fantasy;
+}
+.dropdown-item{
+    font-family: fantasy;
+}
+.img-fluid{
+    width: 90%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.btn-pais{
+    display: flex;
+    justify-content: center;
+}
+.btn-light{
+    width: 90%;
+    height: 40px;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+}
+.img-fluid:hover{
+    transform: scale(1.05);
+}
