@@ -96,6 +96,7 @@ body {
   }
   .map{
     border-radius: 20px;
+    object-fit: cover;
   }
   .col.states{
     margin-top: 35px;
@@ -103,6 +104,13 @@ body {
   .btn.btn-light.states{
     margin-bottom: 23px;
     height: 45px;
+    font-family: fantasy;
+    font-size: 25px;
+  }
+  .btn.btn-light.states-sv{
+    margin-bottom: 23px;
+    height: 45px;
+    width: 300px;
     font-family: fantasy;
     font-size: 25px;
   }
